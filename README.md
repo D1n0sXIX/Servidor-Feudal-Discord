@@ -1,10 +1,10 @@
-# 🏰 Le Turbo Gang University — Discord Bot
+# Le Turbo Gang University — Discord Bot
 
 Bot de Discord para el servidor universitario de U-Tad, temático de sociedad feudal medieval. Gestiona un sistema de rangos por actividad, duelos entre usuarios, poderes especiales y gremios por carrera.
 
 ---
 
-## ⚔️ Características principales
+## Características principales
 
 - **Sistema de rangos** — 7 rangos obtenidos mediante puntos de actividad (mensajes, voz, reacciones)
 - **Decay por inactividad** — pérdida de puntos escalable según rango
@@ -14,7 +14,7 @@ Bot de Discord para el servidor universitario de U-Tad, temático de sociedad fe
 
 ---
 
-## 🛠️ Stack técnico
+## Stack técnico
 
 | Componente | Tecnología |
 |------------|------------|
@@ -22,13 +22,13 @@ Bot de Discord para el servidor universitario de U-Tad, temático de sociedad fe
 | Librería Discord | discord.py |
 | Base de datos | SQLite + aiosqlite |
 | Variables de entorno | python-dotenv |
+| Dependencias | requirements.txt |
 
 ---
 
 ## 📁 Estructura del proyecto
 
 ```
-bot/
 ├── main.py              # Punto de entrada del bot
 ├── .env                 # Token y variables sensibles (no commitear)
 ├── .env.example         # Plantilla de variables de entorno
@@ -48,8 +48,8 @@ bot/
 
 ### 1. Clona el repositorio
 ```bash
-git clone https://github.com/tu-usuario/tu-repo.git
-cd tu-repo
+git clone https://github.com/D1n0sXIX/Servidor-Feudal-Discord.git
+cd Servidor-Feudal-Discord
 ```
 
 ### 2. Crea un entorno virtual e instala dependencias
@@ -74,7 +74,7 @@ python main.py
 
 ## 📋 Estado del desarrollo
 
-- [ ] Estructura base del bot
+- [x] Estructura base del bot
 - [ ] Sistema de puntos
 - [ ] Sistema de rangos y decay
 - [ ] Gremios
@@ -86,7 +86,7 @@ python main.py
 
 ## 🤝 Contribuir
 
-Proyecto interno del servidor de U-Tad. Si eres del servidor y quieres contribuir, abre un issue o contacta con los admins.
+Proyecto interno del servidor de U-Tad. Si eres del servidor y quieres contribuir, abre un issue o contacta conmigo.
 
 ---
 
